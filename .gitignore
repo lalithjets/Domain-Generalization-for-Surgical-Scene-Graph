@@ -1,0 +1,11 @@
+*.ipynb_checkpoints/
+.vscode/
+checkpoints/
+feature_extractor/checkpoint/
+datasets/
+log/
+results/
+venv/
+*__pycache__
+*.pyc
+*.mp4

@@ -1,0 +1,501 @@
+#################################################################################
+ls False ts False cbs False
+class order: [0 1 2 3 4 5 6 7 8]
+device_ids: [0, 1, 2]
+===================== period = 0 =========================
+class_novel: [0 1 2 3 4 5 6 7 8]
+train files: 	 size:  6785  , files:  ['data_files/class0_8_train.txt']
+train files: 	 size:  1260  , files:  ['data_files/class0_8_test.txt']
+current lr = 0.001000
+Training Period: 0 	 Epoch: 0 	 time = 175.3 	 loss = 0.088327 	 acc = 0.3422
+Test(n&o)Period: 0 	 Epoch: 0 	 time = 10.2 				 acc = 0.2032
+Training Period: 0 	 Epoch: 1 	 time = 171.4 	 loss = 0.073920 	 acc = 0.4887
+Test(n&o)Period: 0 	 Epoch: 1 	 time = 10.4 				 acc = 0.2889
+Training Period: 0 	 Epoch: 2 	 time = 169.7 	 loss = 0.066429 	 acc = 0.5522
+Test(n&o)Period: 0 	 Epoch: 2 	 time = 10.5 				 acc = 0.3103
+current lr = 0.000800
+Training Period: 0 	 Epoch: 3 	 time = 170.1 	 loss = 0.060771 	 acc = 0.5950
+Test(n&o)Period: 0 	 Epoch: 3 	 time = 10.6 				 acc = 0.3048
+Training Period: 0 	 Epoch: 4 	 time = 170.1 	 loss = 0.056894 	 acc = 0.6190
+Test(n&o)Period: 0 	 Epoch: 4 	 time = 10.7 				 acc = 0.3302
+Training Period: 0 	 Epoch: 5 	 time = 171.2 	 loss = 0.053933 	 acc = 0.6433
+Test(n&o)Period: 0 	 Epoch: 5 	 time = 10.5 				 acc = 0.3468
+current lr = 0.000640
+Training Period: 0 	 Epoch: 6 	 time = 170.2 	 loss = 0.051284 	 acc = 0.6609
+Test(n&o)Period: 0 	 Epoch: 6 	 time = 10.3 				 acc = 0.3270
+Training Period: 0 	 Epoch: 7 	 time = 170.2 	 loss = 0.048780 	 acc = 0.6747
+Test(n&o)Period: 0 	 Epoch: 7 	 time = 10.4 				 acc = 0.3270
+Training Period: 0 	 Epoch: 8 	 time = 170.1 	 loss = 0.047035 	 acc = 0.6912
+Test(n&o)Period: 0 	 Epoch: 8 	 time = 10.3 				 acc = 0.3381
+current lr = 0.000512
+Training Period: 0 	 Epoch: 9 	 time = 171.6 	 loss = 0.045996 	 acc = 0.6989
+Test(n&o)Period: 0 	 Epoch: 9 	 time = 10.5 				 acc = 0.3429
+Training Period: 0 	 Epoch: 10 	 time = 170.0 	 loss = 0.044480 	 acc = 0.7153
+Test(n&o)Period: 0 	 Epoch: 10 	 time = 10.2 				 acc = 0.3484
+Training Period: 0 	 Epoch: 11 	 time = 170.4 	 loss = 0.042271 	 acc = 0.7300
+Test(n&o)Period: 0 	 Epoch: 11 	 time = 10.4 				 acc = 0.3476
+current lr = 0.000410
+Training Period: 0 	 Epoch: 12 	 time = 170.5 	 loss = 0.041729 	 acc = 0.7265
+Test(n&o)Period: 0 	 Epoch: 12 	 time = 10.6 				 acc = 0.3373
+Training Period: 0 	 Epoch: 13 	 time = 171.4 	 loss = 0.041238 	 acc = 0.7304
+Test(n&o)Period: 0 	 Epoch: 13 	 time = 10.2 				 acc = 0.3452
+Training Period: 0 	 Epoch: 14 	 time = 171.4 	 loss = 0.039943 	 acc = 0.7425
+Test(n&o)Period: 0 	 Epoch: 14 	 time = 10.6 				 acc = 0.3452
+current lr = 0.000328
+Training Period: 0 	 Epoch: 15 	 time = 170.4 	 loss = 0.039347 	 acc = 0.7440
+Test(n&o)Period: 0 	 Epoch: 15 	 time = 10.7 				 acc = 0.3508
+Training Period: 0 	 Epoch: 16 	 time = 170.4 	 loss = 0.038820 	 acc = 0.7486
+Test(n&o)Period: 0 	 Epoch: 16 	 time = 10.5 				 acc = 0.3484
+Training Period: 0 	 Epoch: 17 	 time = 170.8 	 loss = 0.037186 	 acc = 0.7595
+Test(n&o)Period: 0 	 Epoch: 17 	 time = 10.0 				 acc = 0.3817
+current lr = 0.000262
+Training Period: 0 	 Epoch: 18 	 time = 171.2 	 loss = 0.037191 	 acc = 0.7604
+Test(n&o)Period: 0 	 Epoch: 18 	 time = 10.5 				 acc = 0.3635
+Training Period: 0 	 Epoch: 19 	 time = 170.5 	 loss = 0.036162 	 acc = 0.7714
+Test(n&o)Period: 0 	 Epoch: 19 	 time = 10.4 				 acc = 0.3635
+Training Period: 0 	 Epoch: 20 	 time = 170.1 	 loss = 0.036099 	 acc = 0.7629
+Test(n&o)Period: 0 	 Epoch: 20 	 time = 10.4 				 acc = 0.3643
+current lr = 0.000210
+Training Period: 0 	 Epoch: 21 	 time = 170.3 	 loss = 0.035208 	 acc = 0.7714
+Test(n&o)Period: 0 	 Epoch: 21 	 time = 10.3 				 acc = 0.3563
+Training Period: 0 	 Epoch: 22 	 time = 171.5 	 loss = 0.035135 	 acc = 0.7717
+Test(n&o)Period: 0 	 Epoch: 22 	 time = 10.4 				 acc = 0.3603
+Training Period: 0 	 Epoch: 23 	 time = 169.7 	 loss = 0.035209 	 acc = 0.7705
+Test(n&o)Period: 0 	 Epoch: 23 	 time = 10.5 				 acc = 0.3556
+current lr = 0.000168
+Training Period: 0 	 Epoch: 24 	 time = 170.0 	 loss = 0.034209 	 acc = 0.7758
+Test(n&o)Period: 0 	 Epoch: 24 	 time = 10.5 				 acc = 0.3516
+Training Period: 0 	 Epoch: 25 	 time = 169.8 	 loss = 0.034320 	 acc = 0.7831
+Test(n&o)Period: 0 	 Epoch: 25 	 time = 10.5 				 acc = 0.3603
+Training Period: 0 	 Epoch: 26 	 time = 171.6 	 loss = 0.033820 	 acc = 0.7816
+Test(n&o)Period: 0 	 Epoch: 26 	 time = 10.5 				 acc = 0.3635
+current lr = 0.000134
+Training Period: 0 	 Epoch: 27 	 time = 170.7 	 loss = 0.034061 	 acc = 0.7816
+Test(n&o)Period: 0 	 Epoch: 27 	 time = 10.5 				 acc = 0.3754
+Training Period: 0 	 Epoch: 28 	 time = 169.8 	 loss = 0.033834 	 acc = 0.7891
+Test(n&o)Period: 0 	 Epoch: 28 	 time = 10.3 				 acc = 0.3500
+Training Period: 0 	 Epoch: 29 	 time = 170.3 	 loss = 0.033101 	 acc = 0.7904
+Test(n&o)Period: 0 	 Epoch: 29 	 time = 10.5 				 acc = 0.3524
+##################################################################################
+
+##################################################################################
+ls False ts True cbs False
+class order: [0 1 2 3 4 5 6 7 8]
+device_ids: [0, 1, 2]
+
+===================== period = 0 =========================
+class_novel: [0 1 2 3 4 5 6 7 8]
+train files: 	 size:  6785  , files:  ['data_files/class0_8_train.txt']
+train files: 	 size:  1260  , files:  ['data_files/class0_8_test.txt']
+current lr = 0.001000
+Training Period: 0 	 Epoch: 0 	 time = 172.7 	 loss = 0.088327 	 acc = 0.3422
+Test(n&o)Period: 0 	 Epoch: 0 	 time = 10.6 				 acc = 0.2032
+Training Period: 0 	 Epoch: 1 	 time = 167.3 	 loss = 0.073920 	 acc = 0.4887
+Test(n&o)Period: 0 	 Epoch: 1 	 time = 10.0 				 acc = 0.2889
+Training Period: 0 	 Epoch: 2 	 time = 168.1 	 loss = 0.066429 	 acc = 0.5522
+Test(n&o)Period: 0 	 Epoch: 2 	 time = 10.1 				 acc = 0.3103
+current lr = 0.000800
+Training Period: 0 	 Epoch: 3 	 time = 166.9 	 loss = 0.060771 	 acc = 0.5950
+Test(n&o)Period: 0 	 Epoch: 3 	 time = 10.3 				 acc = 0.3048
+Training Period: 0 	 Epoch: 4 	 time = 167.6 	 loss = 0.056894 	 acc = 0.6190
+Test(n&o)Period: 0 	 Epoch: 4 	 time = 10.0 				 acc = 0.3302
+Training Period: 0 	 Epoch: 5 	 time = 167.8 	 loss = 0.053933 	 acc = 0.6433
+Test(n&o)Period: 0 	 Epoch: 5 	 time = 10.0 				 acc = 0.3468
+current lr = 0.000640
+Training Period: 0 	 Epoch: 6 	 time = 167.7 	 loss = 0.051284 	 acc = 0.6609
+Test(n&o)Period: 0 	 Epoch: 6 	 time = 10.9 				 acc = 0.3270
+Training Period: 0 	 Epoch: 7 	 time = 100.5 	 loss = 0.048780 	 acc = 0.6747
+Test(n&o)Period: 0 	 Epoch: 7 	 time = 5.4 				 acc = 0.3270
+Training Period: 0 	 Epoch: 8 	 time = 88.1 	 loss = 0.047035 	 acc = 0.6912
+Test(n&o)Period: 0 	 Epoch: 8 	 time = 5.4 				 acc = 0.3381
+current lr = 0.000512
+Training Period: 0 	 Epoch: 9 	 time = 86.7 	 loss = 0.045996 	 acc = 0.6989
+Test(n&o)Period: 0 	 Epoch: 9 	 time = 5.4 				 acc = 0.3429
+Training Period: 0 	 Epoch: 10 	 time = 87.1 	 loss = 0.044480 	 acc = 0.7153
+Test(n&o)Period: 0 	 Epoch: 10 	 time = 5.5 				 acc = 0.3484
+Training Period: 0 	 Epoch: 11 	 time = 86.9 	 loss = 0.042271 	 acc = 0.7300
+Test(n&o)Period: 0 	 Epoch: 11 	 time = 6.0 				 acc = 0.3476
+current lr = 0.000410
+Training Period: 0 	 Epoch: 12 	 time = 86.5 	 loss = 0.041729 	 acc = 0.7265
+Test(n&o)Period: 0 	 Epoch: 12 	 time = 5.5 				 acc = 0.3373
+Training Period: 0 	 Epoch: 13 	 time = 87.3 	 loss = 0.041238 	 acc = 0.7304
+Test(n&o)Period: 0 	 Epoch: 13 	 time = 5.4 				 acc = 0.3452
+Training Period: 0 	 Epoch: 14 	 time = 86.7 	 loss = 0.039943 	 acc = 0.7425
+Test(n&o)Period: 0 	 Epoch: 14 	 time = 5.6 				 acc = 0.3452
+current lr = 0.000328
+Training Period: 0 	 Epoch: 15 	 time = 87.5 	 loss = 0.039347 	 acc = 0.7440
+Test(n&o)Period: 0 	 Epoch: 15 	 time = 5.5 				 acc = 0.3508
+Training Period: 0 	 Epoch: 16 	 time = 88.0 	 loss = 0.038820 	 acc = 0.7486
+Test(n&o)Period: 0 	 Epoch: 16 	 time = 5.4 				 acc = 0.3484
+Training Period: 0 	 Epoch: 17 	 time = 88.1 	 loss = 0.037186 	 acc = 0.7595
+Test(n&o)Period: 0 	 Epoch: 17 	 time = 5.4 				 acc = 0.3817
+current lr = 0.000262
+Training Period: 0 	 Epoch: 18 	 time = 86.1 	 loss = 0.037191 	 acc = 0.7604
+Test(n&o)Period: 0 	 Epoch: 18 	 time = 5.5 				 acc = 0.3635
+Training Period: 0 	 Epoch: 19 	 time = 87.2 	 loss = 0.036162 	 acc = 0.7714
+Test(n&o)Period: 0 	 Epoch: 19 	 time = 5.4 				 acc = 0.3635
+Training Period: 0 	 Epoch: 20 	 time = 87.3 	 loss = 0.036099 	 acc = 0.7629
+Test(n&o)Period: 0 	 Epoch: 20 	 time = 5.9 				 acc = 0.3643
+current lr = 0.000210
+Training Period: 0 	 Epoch: 21 	 time = 87.2 	 loss = 0.035208 	 acc = 0.7714
+Test(n&o)Period: 0 	 Epoch: 21 	 time = 5.5 				 acc = 0.3563
+Training Period: 0 	 Epoch: 22 	 time = 86.6 	 loss = 0.035135 	 acc = 0.7717
+Test(n&o)Period: 0 	 Epoch: 22 	 time = 5.5 				 acc = 0.3603
+Training Period: 0 	 Epoch: 23 	 time = 87.8 	 loss = 0.035209 	 acc = 0.7705
+Test(n&o)Period: 0 	 Epoch: 23 	 time = 5.4 				 acc = 0.3556
+current lr = 0.000168
+Training Period: 0 	 Epoch: 24 	 time = 87.0 	 loss = 0.034209 	 acc = 0.7758
+Test(n&o)Period: 0 	 Epoch: 24 	 time = 5.4 				 acc = 0.3516
+Training Period: 0 	 Epoch: 25 	 time = 86.9 	 loss = 0.034320 	 acc = 0.7831
+Test(n&o)Period: 0 	 Epoch: 25 	 time = 5.9 				 acc = 0.3603
+Training Period: 0 	 Epoch: 26 	 time = 86.8 	 loss = 0.033820 	 acc = 0.7816
+Test(n&o)Period: 0 	 Epoch: 26 	 time = 5.4 				 acc = 0.3635
+current lr = 0.000134
+Training Period: 0 	 Epoch: 27 	 time = 87.6 	 loss = 0.034061 	 acc = 0.7816
+Test(n&o)Period: 0 	 Epoch: 27 	 time = 5.5 				 acc = 0.3754
+Training Period: 0 	 Epoch: 28 	 time = 86.6 	 loss = 0.033834 	 acc = 0.7891
+Test(n&o)Period: 0 	 Epoch: 28 	 time = 5.4 				 acc = 0.3500
+Training Period: 0 	 Epoch: 29 	 time = 87.7 	 loss = 0.033101 	 acc = 0.7904
+Test(n&o)Period: 0 	 Epoch: 29 	 time = 5.5 				 acc = 0.3524
+
+##################################################################################
+
+ls True ts False cbs False
+class order: [0 1 2 3 4 5 6 7 8]
+device_ids: [0, 1, 2]
+
+===================== period = 0 =========================
+class_novel: [0 1 2 3 4 5 6 7 8]
+train files: 	 size:  6785  , files:  ['data_files/class0_8_train.txt']
+train files: 	 size:  1260  , files:  ['data_files/class0_8_test.txt']
+current lr = 0.001000
+Training Period: 0 	 Epoch: 0 	 time = 172.9 	 loss = 0.093231 	 acc = 0.3350
+Test(n&o)Period: 0 	 Epoch: 0 	 time = 10.2 				 acc = 0.1944
+Training Period: 0 	 Epoch: 1 	 time = 167.3 	 loss = 0.082216 	 acc = 0.4706
+Test(n&o)Period: 0 	 Epoch: 1 	 time = 10.3 				 acc = 0.2825
+Training Period: 0 	 Epoch: 2 	 time = 168.3 	 loss = 0.076336 	 acc = 0.5437
+Test(n&o)Period: 0 	 Epoch: 2 	 time = 9.7 				 acc = 0.3079
+current lr = 0.000800
+Training Period: 0 	 Epoch: 3 	 time = 168.6 	 loss = 0.072181 	 acc = 0.5835
+Test(n&o)Period: 0 	 Epoch: 3 	 time = 10.4 				 acc = 0.3008
+Training Period: 0 	 Epoch: 4 	 time = 167.4 	 loss = 0.069353 	 acc = 0.6065
+Test(n&o)Period: 0 	 Epoch: 4 	 time = 10.6 				 acc = 0.3262
+Training Period: 0 	 Epoch: 5 	 time = 167.2 	 loss = 0.067126 	 acc = 0.6317
+Test(n&o)Period: 0 	 Epoch: 5 	 time = 10.2 				 acc = 0.3492
+current lr = 0.000640
+Training Period: 0 	 Epoch: 6 	 time = 167.3 	 loss = 0.065229 	 acc = 0.6454
+Test(n&o)Period: 0 	 Epoch: 6 	 time = 10.3 				 acc = 0.3206
+Training Period: 0 	 Epoch: 7 	 time = 168.5 	 loss = 0.063415 	 acc = 0.6648
+Test(n&o)Period: 0 	 Epoch: 7 	 time = 10.3 				 acc = 0.3238
+Training Period: 0 	 Epoch: 8 	 time = 167.2 	 loss = 0.062163 	 acc = 0.6817
+Test(n&o)Period: 0 	 Epoch: 8 	 time = 10.1 				 acc = 0.3381
+current lr = 0.000512
+Training Period: 0 	 Epoch: 9 	 time = 167.2 	 loss = 0.061291 	 acc = 0.6890
+Test(n&o)Period: 0 	 Epoch: 9 	 time = 10.5 				 acc = 0.3389
+Training Period: 0 	 Epoch: 10 	 time = 167.5 	 loss = 0.060135 	 acc = 0.7004
+Test(n&o)Period: 0 	 Epoch: 10 	 time = 10.3 				 acc = 0.3460
+Training Period: 0 	 Epoch: 11 	 time = 168.8 	 loss = 0.058516 	 acc = 0.7175
+Test(n&o)Period: 0 	 Epoch: 11 	 time = 10.3 				 acc = 0.3444
+current lr = 0.000410
+Training Period: 0 	 Epoch: 12 	 time = 167.4 	 loss = 0.058107 	 acc = 0.7194
+Test(n&o)Period: 0 	 Epoch: 12 	 time = 10.5 				 acc = 0.3333
+Training Period: 0 	 Epoch: 13 	 time = 167.1 	 loss = 0.057784 	 acc = 0.7198
+Test(n&o)Period: 0 	 Epoch: 13 	 time = 10.4 				 acc = 0.3429
+Training Period: 0 	 Epoch: 14 	 time = 166.7 	 loss = 0.056758 	 acc = 0.7291
+Test(n&o)Period: 0 	 Epoch: 14 	 time = 10.5 				 acc = 0.3373
+current lr = 0.000328
+Training Period: 0 	 Epoch: 15 	 time = 168.2 	 loss = 0.056508 	 acc = 0.7328
+Test(n&o)Period: 0 	 Epoch: 15 	 time = 10.3 				 acc = 0.3508
+Training Period: 0 	 Epoch: 16 	 time = 167.2 	 loss = 0.055998 	 acc = 0.7418
+Test(n&o)Period: 0 	 Epoch: 16 	 time = 10.4 				 acc = 0.3437
+Training Period: 0 	 Epoch: 17 	 time = 167.5 	 loss = 0.054848 	 acc = 0.7515
+Test(n&o)Period: 0 	 Epoch: 17 	 time = 10.4 				 acc = 0.3817
+current lr = 0.000262
+Training Period: 0 	 Epoch: 18 	 time = 167.8 	 loss = 0.054815 	 acc = 0.7493
+Test(n&o)Period: 0 	 Epoch: 18 	 time = 10.3 				 acc = 0.3468
+Training Period: 0 	 Epoch: 19 	 time = 168.2 	 loss = 0.054135 	 acc = 0.7604
+Test(n&o)Period: 0 	 Epoch: 19 	 time = 10.0 				 acc = 0.3516
+Training Period: 0 	 Epoch: 20 	 time = 168.2 	 loss = 0.054066 	 acc = 0.7553
+Test(n&o)Period: 0 	 Epoch: 20 	 time = 10.3 				 acc = 0.3484
+current lr = 0.000210
+Training Period: 0 	 Epoch: 21 	 time = 167.7 	 loss = 0.053440 	 acc = 0.7621
+Test(n&o)Period: 0 	 Epoch: 21 	 time = 10.2 				 acc = 0.3500
+Training Period: 0 	 Epoch: 22 	 time = 167.2 	 loss = 0.053469 	 acc = 0.7633
+Test(n&o)Period: 0 	 Epoch: 22 	 time = 10.4 				 acc = 0.3468
+Training Period: 0 	 Epoch: 23 	 time = 168.0 	 loss = 0.053428 	 acc = 0.7629
+Test(n&o)Period: 0 	 Epoch: 23 	 time = 10.1 				 acc = 0.3452
+current lr = 0.000168
+Training Period: 0 	 Epoch: 24 	 time = 168.6 	 loss = 0.052687 	 acc = 0.7658
+Test(n&o)Period: 0 	 Epoch: 24 	 time = 10.5 				 acc = 0.3484
+Training Period: 0 	 Epoch: 25 	 time = 167.7 	 loss = 0.052897 	 acc = 0.7776
+Test(n&o)Period: 0 	 Epoch: 25 	 time = 10.4 				 acc = 0.3532
+Training Period: 0 	 Epoch: 26 	 time = 167.5 	 loss = 0.052533 	 acc = 0.7727
+Test(n&o)Period: 0 	 Epoch: 26 	 time = 10.5 				 acc = 0.3476
+current lr = 0.000134
+Training Period: 0 	 Epoch: 27 	 time = 167.6 	 loss = 0.052611 	 acc = 0.7721
+Test(n&o)Period: 0 	 Epoch: 27 	 time = 10.3 				 acc = 0.3548
+Training Period: 0 	 Epoch: 28 	 time = 168.8 	 loss = 0.052460 	 acc = 0.7752
+Test(n&o)Period: 0 	 Epoch: 28 	 time = 10.3 				 acc = 0.3349
+Training Period: 0 	 Epoch: 29 	 time = 164.7 	 loss = 0.051942 	 acc = 0.7803
+Test(n&o)Period: 0 	 Epoch: 29 	 time = 9.6 				 acc = 0.3476
+------------------- ave result ------------------------
+basic acc = nan, finetune acc = nan
+---------------------------------------------------
+===========================================================
+save model: checkpoint/ResNet18_ls_0_012345678.pkl
+memory_train ['data_files/memory_0.txt']
+acc_base    :  [0.34761905]
+acc_finetune:  [0.]
+###################################################################################
+
+ls True ts True cbs False
+class order: [0 1 2 3 4 5 6 7 8]
+device_ids: [0, 1, 2]
+===================== period = 0 =========================
+class_novel: [0 1 2 3 4 5 6 7 8]
+train files: 	 size:  6785  , files:  ['data_files/class0_8_train.txt']
+train files: 	 size:  1260  , files:  ['data_files/class0_8_test.txt']
+current lr = 0.001000
+Training Period: 0 	 Epoch: 0 	 time = 145.6 	 loss = 0.093444 	 acc = 0.3290
+Test(n&o)Period: 0 	 Epoch: 0 	 time = 8.7 				 acc = 0.2429
+Training Period: 0 	 Epoch: 1 	 time = 147.1 	 loss = 0.082682 	 acc = 0.4663
+Test(n&o)Period: 0 	 Epoch: 1 	 time = 8.6 				 acc = 0.2762
+Training Period: 0 	 Epoch: 2 	 time = 147.0 	 loss = 0.076155 	 acc = 0.5465
+Test(n&o)Period: 0 	 Epoch: 2 	 time = 8.6 				 acc = 0.3056
+current lr = 0.000800
+Training Period: 0 	 Epoch: 3 	 time = 147.2 	 loss = 0.072172 	 acc = 0.5775
+Test(n&o)Period: 0 	 Epoch: 3 	 time = 8.6 				 acc = 0.3159
+Training Period: 0 	 Epoch: 4 	 time = 146.7 	 loss = 0.069396 	 acc = 0.6085
+Test(n&o)Period: 0 	 Epoch: 4 	 time = 8.7 				 acc = 0.3230
+Training Period: 0 	 Epoch: 5 	 time = 147.3 	 loss = 0.067447 	 acc = 0.6289
+Test(n&o)Period: 0 	 Epoch: 5 	 time = 8.6 				 acc = 0.3333
+current lr = 0.000640
+Training Period: 0 	 Epoch: 6 	 time = 147.8 	 loss = 0.065111 	 acc = 0.6497
+Test(n&o)Period: 0 	 Epoch: 6 	 time = 8.6 				 acc = 0.3397
+Training Period: 0 	 Epoch: 7 	 time = 147.8 	 loss = 0.063208 	 acc = 0.6728
+Test(n&o)Period: 0 	 Epoch: 7 	 time = 8.7 				 acc = 0.3135
+Training Period: 0 	 Epoch: 8 	 time = 148.1 	 loss = 0.062484 	 acc = 0.6765
+Test(n&o)Period: 0 	 Epoch: 8 	 time = 8.7 				 acc = 0.3325
+current lr = 0.000512
+Training Period: 0 	 Epoch: 9 	 time = 148.7 	 loss = 0.060325 	 acc = 0.6948
+Test(n&o)Period: 0 	 Epoch: 9 	 time = 8.6 				 acc = 0.3190
+Training Period: 0 	 Epoch: 10 	 time = 147.4 	 loss = 0.059744 	 acc = 0.7043
+Test(n&o)Period: 0 	 Epoch: 10 	 time = 8.7 				 acc = 0.3246
+Training Period: 0 	 Epoch: 11 	 time = 148.5 	 loss = 0.058922 	 acc = 0.7153
+Test(n&o)Period: 0 	 Epoch: 11 	 time = 8.6 				 acc = 0.3357
+current lr = 0.000410
+Training Period: 0 	 Epoch: 12 	 time = 148.3 	 loss = 0.058217 	 acc = 0.7155
+Test(n&o)Period: 0 	 Epoch: 12 	 time = 8.7 				 acc = 0.3270
+Training Period: 0 	 Epoch: 13 	 time = 147.9 	 loss = 0.057604 	 acc = 0.7265
+Test(n&o)Period: 0 	 Epoch: 13 	 time = 8.6 				 acc = 0.3389
+Training Period: 0 	 Epoch: 14 	 time = 147.9 	 loss = 0.056648 	 acc = 0.7332
+Test(n&o)Period: 0 	 Epoch: 14 	 time = 8.7 				 acc = 0.3278
+current lr = 0.000328
+Training Period: 0 	 Epoch: 15 	 time = 147.4 	 loss = 0.056464 	 acc = 0.7372
+Test(n&o)Period: 0 	 Epoch: 15 	 time = 8.7 				 acc = 0.3444
+Training Period: 0 	 Epoch: 16 	 time = 147.1 	 loss = 0.055918 	 acc = 0.7413
+Test(n&o)Period: 0 	 Epoch: 16 	 time = 9.4 				 acc = 0.3317
+Training Period: 0 	 Epoch: 17 	 time = 148.3 	 loss = 0.055132 	 acc = 0.7492
+Test(n&o)Period: 0 	 Epoch: 17 	 time = 8.6 				 acc = 0.3397
+current lr = 0.000262
+Training Period: 0 	 Epoch: 18 	 time = 147.9 	 loss = 0.054506 	 acc = 0.7537
+Test(n&o)Period: 0 	 Epoch: 18 	 time = 8.7 				 acc = 0.3508
+Training Period: 0 	 Epoch: 19 	 time = 149.7 	 loss = 0.054482 	 acc = 0.7534
+Test(n&o)Period: 0 	 Epoch: 19 	 time = 8.7 				 acc = 0.3437
+Training Period: 0 	 Epoch: 20 	 time = 149.0 	 loss = 0.054283 	 acc = 0.7517
+Test(n&o)Period: 0 	 Epoch: 20 	 time = 8.7 				 acc = 0.3429
+current lr = 0.000210
+Training Period: 0 	 Epoch: 21 	 time = 147.4 	 loss = 0.053423 	 acc = 0.7623
+Test(n&o)Period: 0 	 Epoch: 21 	 time = 8.7 				 acc = 0.3373
+Training Period: 0 	 Epoch: 22 	 time = 149.3 	 loss = 0.053454 	 acc = 0.7716
+Test(n&o)Period: 0 	 Epoch: 22 	 time = 8.7 				 acc = 0.3635
+Training Period: 0 	 Epoch: 23 	 time = 147.3 	 loss = 0.053044 	 acc = 0.7677
+Test(n&o)Period: 0 	 Epoch: 23 	 time = 8.6 				 acc = 0.3500
+current lr = 0.000168
+Training Period: 0 	 Epoch: 24 	 time = 148.3 	 loss = 0.053086 	 acc = 0.7680
+Test(n&o)Period: 0 	 Epoch: 24 	 time = 8.6 				 acc = 0.3421
+Training Period: 0 	 Epoch: 25 	 time = 147.4 	 loss = 0.052587 	 acc = 0.7754
+Test(n&o)Period: 0 	 Epoch: 25 	 time = 8.7 				 acc = 0.3397
+Training Period: 0 	 Epoch: 26 	 time = 148.7 	 loss = 0.052263 	 acc = 0.7710
+Test(n&o)Period: 0 	 Epoch: 26 	 time = 8.7 				 acc = 0.3365
+current lr = 0.000134
+Training Period: 0 	 Epoch: 27 	 time = 148.2 	 loss = 0.052145 	 acc = 0.7751
+Test(n&o)Period: 0 	 Epoch: 27 	 time = 8.6 				 acc = 0.3413
+Training Period: 0 	 Epoch: 28 	 time = 148.3 	 loss = 0.051870 	 acc = 0.7785
+Test(n&o)Period: 0 	 Epoch: 28 	 time = 8.7 				 acc = 0.3437
+Training Period: 0 	 Epoch: 29 	 time = 149.3 	 loss = 0.051836 	 acc = 0.7860
+Test(n&o)Period: 0 	 Epoch: 29 	 time = 8.7 				 acc = 0.3397
+------------------- ave result ------------------------
+basic acc = nan, finetune acc = nan
+---------------------------------------------------
+===========================================================
+save model: checkpoint/base/ResNet18_ts_ls_0_012345678.pkl
+memory_train ['data_files/memory_0.txt']
+acc_base    :  [0.33968254]
+
+###################################################################################
+
+###################################################################################
+ls False ts True cbs True
+class order: [0 1 2 3 4 5 6 7 8]
+device_ids: [0, 1, 2]
+===================== period = 0 =========================
+class_novel: [0 1 2 3 4 5 6 7 8]
+train files: 	 size:  6785  , files:  ['data_files/class0_8_train.txt']
+train files: 	 size:  1260  , files:  ['data_files/class0_8_test.txt']
+current lr = 0.001000
+Training Period: 0 	 Epoch: 0 	 time = 190.2 	 loss = 0.078342 	 acc = 0.4472
+Test(n&o)Period: 0 	 Epoch: 0 	 time = 12.7 				 acc = 0.2698
+Training Period: 0 	 Epoch: 1 	 time = 191.0 	 loss = 0.061757 	 acc = 0.5913
+Test(n&o)Period: 0 	 Epoch: 1 	 time = 12.7 				 acc = 0.3238
+Training Period: 0 	 Epoch: 2 	 time = 1310.1 	 loss = 0.054014 	 acc = 0.6429
+Test(n&o)Period: 0 	 Epoch: 2 	 time = 12.7 				 acc = 0.3587
+current lr = 0.000800
+Training Period: 0 	 Epoch: 3 	 time = 190.2 	 loss = 0.048100 	 acc = 0.6831
+Test(n&o)Period: 0 	 Epoch: 3 	 time = 12.7 				 acc = 0.3302
+Training Period: 0 	 Epoch: 4 	 time = 190.8 	 loss = 0.044945 	 acc = 0.7067
+Test(n&o)Period: 0 	 Epoch: 4 	 time = 12.8 				 acc = 0.2889
+Training Period: 0 	 Epoch: 5 	 time = 191.3 	 loss = 0.041709 	 acc = 0.7297
+Test(n&o)Period: 0 	 Epoch: 5 	 time = 12.7 				 acc = 0.3278
+current lr = 0.000640
+Training Period: 0 	 Epoch: 6 	 time = 190.8 	 loss = 0.038444 	 acc = 0.7521
+Test(n&o)Period: 0 	 Epoch: 6 	 time = 12.7 				 acc = 0.3365
+Training Period: 0 	 Epoch: 7 	 time = 190.6 	 loss = 0.036560 	 acc = 0.7637
+Test(n&o)Period: 0 	 Epoch: 7 	 time = 12.7 				 acc = 0.3230
+Training Period: 0 	 Epoch: 8 	 time = 191.5 	 loss = 0.035265 	 acc = 0.7758
+Test(n&o)Period: 0 	 Epoch: 8 	 time = 12.7 				 acc = 0.3286
+current lr = 0.000512
+Training Period: 0 	 Epoch: 9 	 time = 190.9 	 loss = 0.032964 	 acc = 0.7847
+Test(n&o)Period: 0 	 Epoch: 9 	 time = 12.7 				 acc = 0.3206
+Training Period: 0 	 Epoch: 10 	 time = 191.1 	 loss = 0.032443 	 acc = 0.7941
+Test(n&o)Period: 0 	 Epoch: 10 	 time = 12.7 				 acc = 0.3444
+Training Period: 0 	 Epoch: 11 	 time = 190.8 	 loss = 0.031128 	 acc = 0.8024
+Test(n&o)Period: 0 	 Epoch: 11 	 time = 12.8 				 acc = 0.3286
+current lr = 0.000410
+Training Period: 0 	 Epoch: 12 	 time = 191.1 	 loss = 0.029378 	 acc = 0.8141
+Test(n&o)Period: 0 	 Epoch: 12 	 time = 12.7 				 acc = 0.3437
+Training Period: 0 	 Epoch: 13 	 time = 193.0 	 loss = 0.027716 	 acc = 0.8209
+Test(n&o)Period: 0 	 Epoch: 13 	 time = 12.7 				 acc = 0.3556
+Training Period: 0 	 Epoch: 14 	 time = 190.1 	 loss = 0.028158 	 acc = 0.8221
+Test(n&o)Period: 0 	 Epoch: 14 	 time = 12.7 				 acc = 0.3421
+current lr = 0.000328
+Training Period: 0 	 Epoch: 15 	 time = 190.2 	 loss = 0.027914 	 acc = 0.8228
+Test(n&o)Period: 0 	 Epoch: 15 	 time = 12.7 				 acc = 0.3310
+Training Period: 0 	 Epoch: 16 	 time = 190.1 	 loss = 0.026866 	 acc = 0.8259
+Test(n&o)Period: 0 	 Epoch: 16 	 time = 12.7 				 acc = 0.3413
+Training Period: 0 	 Epoch: 17 	 time = 191.2 	 loss = 0.025551 	 acc = 0.8386
+Test(n&o)Period: 0 	 Epoch: 17 	 time = 12.7 				 acc = 0.3532
+current lr = 0.000262
+Training Period: 0 	 Epoch: 18 	 time = 190.8 	 loss = 0.024953 	 acc = 0.8395
+Test(n&o)Period: 0 	 Epoch: 18 	 time = 12.7 				 acc = 0.3754
+Training Period: 0 	 Epoch: 19 	 time = 191.5 	 loss = 0.024307 	 acc = 0.8473
+Test(n&o)Period: 0 	 Epoch: 19 	 time = 12.8 				 acc = 0.3508
+Training Period: 0 	 Epoch: 20 	 time = 191.3 	 loss = 0.026318 	 acc = 0.8357
+Test(n&o)Period: 0 	 Epoch: 20 	 time = 12.7 				 acc = 0.3619
+current lr = 0.000210
+Training Period: 0 	 Epoch: 21 	 time = 191.2 	 loss = 0.024213 	 acc = 0.8526
+Test(n&o)Period: 0 	 Epoch: 21 	 time = 12.7 				 acc = 0.3667
+Training Period: 0 	 Epoch: 22 	 time = 190.9 	 loss = 0.024454 	 acc = 0.8475
+Test(n&o)Period: 0 	 Epoch: 22 	 time = 12.8 				 acc = 0.3405
+Training Period: 0 	 Epoch: 23 	 time = 190.8 	 loss = 0.023322 	 acc = 0.8566
+Test(n&o)Period: 0 	 Epoch: 23 	 time = 12.7 				 acc = 0.3706
+current lr = 0.000168
+Training Period: 0 	 Epoch: 24 	 time = 191.4 	 loss = 0.023001 	 acc = 0.8607
+Test(n&o)Period: 0 	 Epoch: 24 	 time = 12.7 				 acc = 0.3619
+Training Period: 0 	 Epoch: 25 	 time = 191.1 	 loss = 0.026388 	 acc = 0.8349
+Test(n&o)Period: 0 	 Epoch: 25 	 time = 12.7 				 acc = 0.3659
+Training Period: 0 	 Epoch: 26 	 time = 190.5 	 loss = 0.024836 	 acc = 0.8439
+Test(n&o)Period: 0 	 Epoch: 26 	 time = 12.8 				 acc = 0.3468
+current lr = 0.000134
+Training Period: 0 	 Epoch: 27 	 time = 191.4 	 loss = 0.023700 	 acc = 0.8547
+Test(n&o)Period: 0 	 Epoch: 27 	 time = 12.8 				 acc = 0.3548
+Training Period: 0 	 Epoch: 28 	 time = 190.9 	 loss = 0.023153 	 acc = 0.8595
+Test(n&o)Period: 0 	 Epoch: 28 	 time = 12.7 				 acc = 0.4016
+Training Period: 0 	 Epoch: 29 	 time = 191.0 	 loss = 0.022633 	 acc = 0.8606
+Test(n&o)Period: 0 	 Epoch: 29 	 time = 12.7 				 acc = 0.3921
+------------------- ave result ------------------------
+basic acc = nan, finetune acc = nan
+---------------------------------------------------
+##################################################################################
+
+##################################################################################
+
+ls False ts False cbs True
+class order: [0 1 2 3 4 5 6 7 8]
+device_ids: [0, 1, 2]
+===================== period = 0 =========================
+class_novel: [0 1 2 3 4 5 6 7 8]
+train files: 	 size:  6785  , files:  ['data_files/class0_8_train.txt']
+train files: 	 size:  1260  , files:  ['data_files/class0_8_test.txt']
+current lr = 0.001000
+Training Period: 0 	 Epoch: 0 	 time = 189.6 	 loss = 0.078342 	 acc = 0.4472
+Test(n&o)Period: 0 	 Epoch: 0 	 time = 12.8 				 acc = 0.2698
+Training Period: 0 	 Epoch: 1 	 time = 191.7 	 loss = 0.061757 	 acc = 0.5913
+Test(n&o)Period: 0 	 Epoch: 1 	 time = 12.8 				 acc = 0.3238
+Training Period: 0 	 Epoch: 2 	 time = 191.6 	 loss = 0.054014 	 acc = 0.6429
+Test(n&o)Period: 0 	 Epoch: 2 	 time = 12.8 				 acc = 0.3587
+current lr = 0.000800
+Training Period: 0 	 Epoch: 3 	 time = 191.1 	 loss = 0.048100 	 acc = 0.6831
+Test(n&o)Period: 0 	 Epoch: 3 	 time = 12.8 				 acc = 0.3302
+Training Period: 0 	 Epoch: 4 	 time = 191.8 	 loss = 0.044945 	 acc = 0.7067
+Test(n&o)Period: 0 	 Epoch: 4 	 time = 12.8 				 acc = 0.2889
+Training Period: 0 	 Epoch: 5 	 time = 191.1 	 loss = 0.041709 	 acc = 0.7297
+Test(n&o)Period: 0 	 Epoch: 5 	 time = 12.8 				 acc = 0.3278
+current lr = 0.000640
+Training Period: 0 	 Epoch: 6 	 time = 191.1 	 loss = 0.038444 	 acc = 0.7521
+Test(n&o)Period: 0 	 Epoch: 6 	 time = 12.8 				 acc = 0.3365
+Training Period: 0 	 Epoch: 7 	 time = 190.6 	 loss = 0.036560 	 acc = 0.7637
+Test(n&o)Period: 0 	 Epoch: 7 	 time = 12.8 				 acc = 0.3230
+Training Period: 0 	 Epoch: 8 	 time = 191.2 	 loss = 0.035265 	 acc = 0.7758
+Test(n&o)Period: 0 	 Epoch: 8 	 time = 12.8 				 acc = 0.3286
+current lr = 0.000512
+Training Period: 0 	 Epoch: 9 	 time = 191.9 	 loss = 0.032964 	 acc = 0.7847
+Test(n&o)Period: 0 	 Epoch: 9 	 time = 12.8 				 acc = 0.3206
+Training Period: 0 	 Epoch: 10 	 time = 191.8 	 loss = 0.032443 	 acc = 0.7941
+Test(n&o)Period: 0 	 Epoch: 10 	 time = 12.8 				 acc = 0.3444
+Training Period: 0 	 Epoch: 11 	 time = 190.8 	 loss = 0.031128 	 acc = 0.8024
+Test(n&o)Period: 0 	 Epoch: 11 	 time = 12.9 				 acc = 0.3286
+current lr = 0.000410
+Training Period: 0 	 Epoch: 12 	 time = 191.6 	 loss = 0.029378 	 acc = 0.8141
+Test(n&o)Period: 0 	 Epoch: 12 	 time = 12.8 				 acc = 0.3437
+Training Period: 0 	 Epoch: 13 	 time = 191.0 	 loss = 0.027716 	 acc = 0.8209
+Test(n&o)Period: 0 	 Epoch: 13 	 time = 12.9 				 acc = 0.3556
+Training Period: 0 	 Epoch: 14 	 time = 190.9 	 loss = 0.028158 	 acc = 0.8221
+Test(n&o)Period: 0 	 Epoch: 14 	 time = 12.8 				 acc = 0.3421
+current lr = 0.000328
+Training Period: 0 	 Epoch: 15 	 time = 191.8 	 loss = 0.027914 	 acc = 0.8228
+Test(n&o)Period: 0 	 Epoch: 15 	 time = 12.8 				 acc = 0.3310
+Training Period: 0 	 Epoch: 16 	 time = 191.5 	 loss = 0.026866 	 acc = 0.8259
+Test(n&o)Period: 0 	 Epoch: 16 	 time = 12.9 				 acc = 0.3413
+Training Period: 0 	 Epoch: 17 	 time = 192.0 	 loss = 0.025551 	 acc = 0.8386
+Test(n&o)Period: 0 	 Epoch: 17 	 time = 12.8 				 acc = 0.3532
+current lr = 0.000262
+Training Period: 0 	 Epoch: 18 	 time = 190.8 	 loss = 0.024953 	 acc = 0.8395
+Test(n&o)Period: 0 	 Epoch: 18 	 time = 12.8 				 acc = 0.3754
+Training Period: 0 	 Epoch: 19 	 time = 190.7 	 loss = 0.024307 	 acc = 0.8473
+Test(n&o)Period: 0 	 Epoch: 19 	 time = 12.8 				 acc = 0.3508
+Training Period: 0 	 Epoch: 20 	 time = 191.0 	 loss = 0.026318 	 acc = 0.8357
+Test(n&o)Period: 0 	 Epoch: 20 	 time = 12.8 				 acc = 0.3619
+current lr = 0.000210
+Training Period: 0 	 Epoch: 21 	 time = 191.0 	 loss = 0.024213 	 acc = 0.8526
+Test(n&o)Period: 0 	 Epoch: 21 	 time = 12.8 				 acc = 0.3667
+Training Period: 0 	 Epoch: 22 	 time = 191.2 	 loss = 0.024454 	 acc = 0.8475
+Test(n&o)Period: 0 	 Epoch: 22 	 time = 12.8 				 acc = 0.3405
+Training Period: 0 	 Epoch: 23 	 time = 192.3 	 loss = 0.023322 	 acc = 0.8566
+Test(n&o)Period: 0 	 Epoch: 23 	 time = 12.8 				 acc = 0.3706
+current lr = 0.000168
+Training Period: 0 	 Epoch: 24 	 time = 191.5 	 loss = 0.023001 	 acc = 0.8607
+Test(n&o)Period: 0 	 Epoch: 24 	 time = 12.8 				 acc = 0.3619
+Training Period: 0 	 Epoch: 25 	 time = 190.9 	 loss = 0.026388 	 acc = 0.8349
+Test(n&o)Period: 0 	 Epoch: 25 	 time = 12.8 				 acc = 0.3659
+Training Period: 0 	 Epoch: 26 	 time = 191.0 	 loss = 0.024836 	 acc = 0.8439
+Test(n&o)Period: 0 	 Epoch: 26 	 time = 12.9 				 acc = 0.3468
+current lr = 0.000134
+Training Period: 0 	 Epoch: 27 	 time = 190.9 	 loss = 0.023700 	 acc = 0.8547
+Test(n&o)Period: 0 	 Epoch: 27 	 time = 12.8 				 acc = 0.3548
+Training Period: 0 	 Epoch: 28 	 time = 191.5 	 loss = 0.023153 	 acc = 0.8595
+Test(n&o)Period: 0 	 Epoch: 28 	 time = 12.8 				 acc = 0.4016
+Training Period: 0 	 Epoch: 29 	 time = 191.4 	 loss = 0.022633 	 acc = 0.8606
+Test(n&o)Period: 0 	 Epoch: 29 	 time = 12.9 				 acc = 0.3921
+
+#################################################################################
