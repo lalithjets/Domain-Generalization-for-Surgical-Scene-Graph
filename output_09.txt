@@ -234,6 +234,85 @@
 ############################################################################
 
 ############################################################################
+                        resnet18_09_ts_ls
+[train] Epoch: 1/351   Acc: 0.084787 Loss: 3.887480 Execution time: 5.662100
+[train] Epoch: 11/351  Acc: 0.279850 Loss: 1.235900 Execution time: 5.551442
+[train] Epoch: 11/351  Acc: 0.279850 Loss: 1.235900 Execution time: 5.551442
+[train] Epoch: 21/351  Acc: 0.317145 Loss: 0.987608 Execution time: 5.755011
+[train] Epoch: 31/351  Acc: 0.330561 Loss: 0.852631 Execution time: 5.423076
+[train] Epoch: 41/351  Acc: 0.332976 Loss: 0.824730 Execution time: 5.597654
+[train] Epoch: 51/351  Acc: 0.343976 Loss: 0.802142 Execution time: 5.697643
+[train] Epoch: 61/351  Acc: 0.373491 Loss: 0.784140 Execution time: 5.646113
+[train] Epoch: 71/351  Acc: 0.382882 Loss: 0.781854 Execution time: 5.723726
+[train] Epoch: 81/351  Acc: 0.400590 Loss: 0.768277 Execution time: 5.601015
+[train] Epoch: 91/351  Acc: 0.407298 Loss: 0.749976 Execution time: 5.600507
+[train] Epoch: 101/351 Acc: 0.439496 Loss: 0.734838 Execution time: 5.560049
+[train] Epoch: 111/351 Acc: 0.436276 Loss: 0.741763 Execution time: 5.575948
+[train] Epoch: 121/351 Acc: 0.461765 Loss: 0.728692 Execution time: 5.629949
+[train] Epoch: 131/351 Acc: 0.465790 Loss: 0.721124 Execution time: 5.802913
+[train] Epoch: 141/351 Acc: 0.473303 Loss: 0.715374 Execution time: 5.666022
+[train] Epoch: 151/351 Acc: 0.495573 Loss: 0.712334 Execution time: 5.592053
+[train] Epoch: 161/351 Acc: 0.497183 Loss: 0.716170 Execution time: 5.585973
+[train] Epoch: 171/351 Acc: 0.487792 Loss: 0.712248 Execution time: 5.673053
+[train] Epoch: 181/351 Acc: 0.518648 Loss: 0.703148 Execution time: 5.708100
+[train] Epoch: 191/351 Acc: 0.522404 Loss: 0.704315 Execution time: 5.718579
+[train] Epoch: 201/351 Acc: 0.534746 Loss: 0.698619 Execution time: 5.629440
+[train] Epoch: 211/351 Acc: 0.534210 Loss: 0.690936 Execution time: 5.583081
+[train] Epoch: 221/351 Acc: 0.541186 Loss: 0.691375 Execution time: 5.632636
+[train] Epoch: 231/351 Acc: 0.547894 Loss: 0.684894 Execution time: 5.527034
+[train] Epoch: 241/351 Acc: 0.550577 Loss: 0.680316 Execution time: 5.679160
+[train] Epoch: 251/351 Acc: 0.560773 Loss: 0.677185 Execution time: 5.645610
+[train] Epoch: 261/351 Acc: 0.553797 Loss: 0.684024 Execution time: 5.736037
+[train] Epoch: 271/351 Acc: 0.567749 Loss: 0.680338 Execution time: 5.591617
+[train] Epoch: 281/351 Acc: 0.575798 Loss: 0.676538 Execution time: 5.688870
+[train] Epoch: 291/351 Acc: 0.575262 Loss: 0.677483 Execution time: 5.460050
+[train] Epoch: 301/351 Acc: 0.582238 Loss: 0.669953 Execution time: 5.548779
+[train] Epoch: 311/351 Acc: 0.591360 Loss: 0.673064 Execution time: 5.612463
+[train] Epoch: 321/351 Acc: 0.584384 Loss: 0.668689 Execution time: 5.738205
+[train] Epoch: 331/351 Acc: 0.592702 Loss: 0.668269 Execution time: 5.653003
+[train] Epoch: 341/351 Acc: 0.597532 Loss: 0.667666 Execution time: 5.729010
+[train] Epoch: 351/351 Acc: 0.590824 Loss: 0.662765 Execution time: 5.751408
+
+
+[val] Epoch: 1/351   Acc: 0.316968 Loss: 1.228498 Execution time: 1.521213
+[val] Epoch: 11/351  Acc: 0.371232 Loss: 0.618200 Execution time: 1.605650
+[val] Epoch: 21/351  Acc: 0.491817 Loss: 0.496839 Execution time: 1.572105
+[val] Epoch: 31/351  Acc: 0.503015 Loss: 0.464299 Execution time: 1.540624
+[val] Epoch: 41/351  Acc: 0.539190 Loss: 0.467057 Execution time: 1.533617
+[val] Epoch: 51/351  Acc: 0.562446 Loss: 0.459115 Execution time: 1.569244
+[val] Epoch: 61/351  Acc: 0.601206 Loss: 0.448050 Execution time: 1.554586
+[val] Epoch: 71/351  Acc: 0.621878 Loss: 0.435625 Execution time: 1.545772
+[val] Epoch: 81/351  Acc: 0.597761 Loss: 0.430843 Execution time: 1.549263
+[val] Epoch: 91/351  Acc: 0.628768 Loss: 0.411371 Execution time: 1.545853
+[val] Epoch: 101/351 Acc: 0.611542 Loss: 0.405641 Execution time: 1.544735
+[val] Epoch: 111/351 Acc: 0.630491 Loss: 0.400596 Execution time: 1.595989
+[val] Epoch: 121/351 Acc: 0.645134 Loss: 0.390193 Execution time: 1.553098
+[val] Epoch: 131/351 Acc: 0.633936 Loss: 0.388683 Execution time: 1.546789
+[val] Epoch: 141/351 Acc: 0.641688 Loss: 0.383588 Execution time: 1.554267
+[val] Epoch: 151/351 Acc: 0.633075 Loss: 0.385155 Execution time: 1.553588
+[val] Epoch: 161/351 Acc: 0.639104 Loss: 0.374601 Execution time: 1.543067
+[val] Epoch: 171/351 Acc: 0.643411 Loss: 0.374474 Execution time: 1.585372
+[val] Epoch: 181/351 Acc: 0.633936 Loss: 0.376983 Execution time: 1.591823
+[val] Epoch: 191/351 Acc: 0.639104 Loss: 0.370848 Execution time: 1.536965
+[val] Epoch: 201/351 Acc: 0.643411 Loss: 0.369406 Execution time: 1.531017
+[val] Epoch: 211/351 Acc: 0.633936 Loss: 0.371031 Execution time: 1.559717
+[val] Epoch: 221/351 Acc: 0.623600 Loss: 0.373143 Execution time: 1.557676
+[val] Epoch: 231/351 Acc: 0.627907 Loss: 0.367957 Execution time: 1.542168
+[val] Epoch: 241/351 Acc: 0.626184 Loss: 0.369329 Execution time: 1.548167
+[val] Epoch: 251/351 Acc: 0.621878 Loss: 0.367591 Execution time: 1.545137
+[val] Epoch: 261/351 Acc: 0.621878 Loss: 0.370123 Execution time: 1.610399
+[val] Epoch: 271/351 Acc: 0.618432 Loss: 0.368940 Execution time: 1.547227
+[val] Epoch: 281/351 Acc: 0.609819 Loss: 0.372750 Execution time: 1.561994
+[val] Epoch: 291/351 Acc: 0.622739 Loss: 0.369968 Execution time: 1.543048
+[val] Epoch: 301/351 Acc: 0.610680 Loss: 0.373635 Execution time: 1.562803
+[val] Epoch: 311/351 Acc: 0.616710 Loss: 0.368217 Execution time: 1.567758
+[val] Epoch: 321/351 Acc: 0.612403 Loss: 0.369743 Execution time: 1.558011
+[val] Epoch: 331/351 Acc: 0.616710 Loss: 0.368486 Execution time: 1.567787
+[val] Epoch: 341/351 Acc: 0.610680 Loss: 0.370062 Execution time: 1.561102
+[val] Epoch: 351/351 Acc: 0.604651 Loss: 0.374961 Execution time: 1.568330
+############################################################################
+
+############################################################################
                         resnet18_09_cbs_ts
 [train] Epoch: 1/351   Acc: 0.033539 Loss: 5.936675 Execution time: 5.481944
 [train] Epoch: 11/351  Acc: 0.288436 Loss: 1.246507 Execution time: 5.416087
@@ -310,3 +389,168 @@
 [val] Epoch: 341/351 Acc: 0.595177 Loss: 0.376586 Execution time: 1.544206
 [val] Epoch: 351/351 Acc: 0.596899 Loss: 0.377760 Execution time: 1.554458
 #############################################################################
+
+#############################################################################
+                        resnet18_09_cbs_ls
+[train] Epoch: 1/351   Acc: 0.102227 Loss: 7.181798 Execution time: 6.005849
+[train] Epoch: 11/351  Acc: 0.274483 Loss: 1.334875 Execution time: 5.777990
+[train] Epoch: 21/351  Acc: 0.306413 Loss: 1.048882 Execution time: 5.738510
+[train] Epoch: 31/351  Acc: 0.314462 Loss: 0.878306 Execution time: 5.673518
+[train] Epoch: 41/351  Acc: 0.326804 Loss: 0.831132 Execution time: 5.690368
+[train] Epoch: 51/351  Acc: 0.338074 Loss: 0.811218 Execution time: 5.691463
+[train] Epoch: 61/351  Acc: 0.367856 Loss: 0.797722 Execution time: 5.640697
+[train] Epoch: 71/351  Acc: 0.376442 Loss: 0.782950 Execution time: 5.576899
+[train] Epoch: 81/351  Acc: 0.383687 Loss: 0.776246 Execution time: 5.838784
+[train] Epoch: 91/351  Acc: 0.407030 Loss: 0.764278 Execution time: 5.688379
+[train] Epoch: 101/351 Acc: 0.434398 Loss: 0.746619 Execution time: 5.645198
+[train] Epoch: 111/351 Acc: 0.432519 Loss: 0.736138 Execution time: 5.775828
+[train] Epoch: 121/351 Acc: 0.440301 Loss: 0.739122 Execution time: 5.729025
+[train] Epoch: 131/351 Acc: 0.455326 Loss: 0.728821 Execution time: 5.642883
+[train] Epoch: 141/351 Acc: 0.472498 Loss: 0.719808 Execution time: 5.726184
+[train] Epoch: 151/351 Acc: 0.475986 Loss: 0.722329 Execution time: 5.591372
+[train] Epoch: 161/351 Acc: 0.499598 Loss: 0.713724 Execution time: 5.836183
+[train] Epoch: 171/351 Acc: 0.489938 Loss: 0.710994 Execution time: 5.468703
+[train] Epoch: 181/351 Acc: 0.516233 Loss: 0.704203 Execution time: 5.680875
+[train] Epoch: 191/351 Acc: 0.524014 Loss: 0.694614 Execution time: 5.658767
+[train] Epoch: 201/351 Acc: 0.524282 Loss: 0.693481 Execution time: 5.605183
+[train] Epoch: 211/351 Acc: 0.532868 Loss: 0.695793 Execution time: 5.722434
+[train] Epoch: 221/351 Acc: 0.528039 Loss: 0.690526 Execution time: 5.718755
+[train] Epoch: 231/351 Acc: 0.536625 Loss: 0.690634 Execution time: 5.747076
+[train] Epoch: 241/351 Acc: 0.543064 Loss: 0.689382 Execution time: 5.879156
+[train] Epoch: 251/351 Acc: 0.555406 Loss: 0.680598 Execution time: 5.676093
+[train] Epoch: 261/351 Acc: 0.564529 Loss: 0.674441 Execution time: 5.750743
+[train] Epoch: 271/351 Acc: 0.561578 Loss: 0.678499 Execution time: 5.546418
+[train] Epoch: 281/351 Acc: 0.566944 Loss: 0.677958 Execution time: 5.839597
+[train] Epoch: 291/351 Acc: 0.564261 Loss: 0.669418 Execution time: 5.860354
+[train] Epoch: 301/351 Acc: 0.574993 Loss: 0.676076 Execution time: 5.666253
+[train] Epoch: 311/351 Acc: 0.577945 Loss: 0.675477 Execution time: 5.717910
+[train] Epoch: 321/351 Acc: 0.575798 Loss: 0.678194 Execution time: 5.748888
+[train] Epoch: 331/351 Acc: 0.578750 Loss: 0.667462 Execution time: 5.683551
+[train] Epoch: 341/351 Acc: 0.581701 Loss: 0.670079 Execution time: 5.553378
+[train] Epoch: 351/351 Acc: 0.598068 Loss: 0.664598 Execution time: 5.635869
+
+
+[val] Epoch: 1/351   Acc: 0.422911 Loss: 2.596286 Execution time: 1.605828
+[val] Epoch: 11/351  Acc: 0.412575 Loss: 0.651614 Execution time: 1.597774
+[val] Epoch: 21/351  Acc: 0.424634 Loss: 0.533365 Execution time: 1.548865
+[val] Epoch: 31/351  Acc: 0.560724 Loss: 0.473630 Execution time: 1.690195
+[val] Epoch: 41/351  Acc: 0.571059 Loss: 0.465423 Execution time: 1.575682
+[val] Epoch: 51/351  Acc: 0.549526 Loss: 0.461300 Execution time: 1.571048
+[val] Epoch: 61/351  Acc: 0.605512 Loss: 0.446936 Execution time: 1.560137
+[val] Epoch: 71/351  Acc: 0.602067 Loss: 0.439311 Execution time: 1.583255
+[val] Epoch: 81/351  Acc: 0.605512 Loss: 0.432283 Execution time: 1.601369
+[val] Epoch: 91/351  Acc: 0.609819 Loss: 0.420258 Execution time: 1.559747
+[val] Epoch: 101/351 Acc: 0.595177 Loss: 0.415468 Execution time: 1.567536
+[val] Epoch: 111/351 Acc: 0.611542 Loss: 0.404941 Execution time: 1.574533
+[val] Epoch: 121/351 Acc: 0.610680 Loss: 0.405283 Execution time: 1.568724
+[val] Epoch: 131/351 Acc: 0.624462 Loss: 0.397393 Execution time: 1.573937
+[val] Epoch: 141/351 Acc: 0.622739 Loss: 0.393698 Execution time: 1.557380
+[val] Epoch: 151/351 Acc: 0.626184 Loss: 0.389175 Execution time: 1.577887
+[val] Epoch: 161/351 Acc: 0.626184 Loss: 0.386812 Execution time: 1.612822
+[val] Epoch: 171/351 Acc: 0.626184 Loss: 0.383313 Execution time: 1.563823
+[val] Epoch: 181/351 Acc: 0.626184 Loss: 0.380957 Execution time: 1.582357
+[val] Epoch: 191/351 Acc: 0.617571 Loss: 0.375788 Execution time: 1.603337
+[val] Epoch: 201/351 Acc: 0.623600 Loss: 0.380280 Execution time: 1.576592
+[val] Epoch: 211/351 Acc: 0.630491 Loss: 0.374044 Execution time: 1.578054
+[val] Epoch: 221/351 Acc: 0.634798 Loss: 0.372843 Execution time: 1.565368
+[val] Epoch: 231/351 Acc: 0.631352 Loss: 0.370799 Execution time: 1.573315
+[val] Epoch: 241/351 Acc: 0.628768 Loss: 0.370387 Execution time: 1.568536
+[val] Epoch: 251/351 Acc: 0.624462 Loss: 0.373011 Execution time: 1.566001
+[val] Epoch: 261/351 Acc: 0.630491 Loss: 0.370086 Execution time: 1.594458
+[val] Epoch: 271/351 Acc: 0.621016 Loss: 0.368737 Execution time: 1.563195
+[val] Epoch: 281/351 Acc: 0.619294 Loss: 0.369661 Execution time: 1.564876
+[val] Epoch: 291/351 Acc: 0.618432 Loss: 0.375049 Execution time: 1.589649
+[val] Epoch: 301/351 Acc: 0.625323 Loss: 0.367875 Execution time: 1.580646
+[val] Epoch: 311/351 Acc: 0.622739 Loss: 0.370261 Execution time: 1.580439
+[val] Epoch: 321/351 Acc: 0.613264 Loss: 0.370305 Execution time: 1.588573
+[val] Epoch: 331/351 Acc: 0.608958 Loss: 0.376468 Execution time: 1.567885
+[val] Epoch: 341/351 Acc: 0.603790 Loss: 0.380512 Execution time: 1.561206
+[val] Epoch: 351/351 Acc: 0.614126 Loss: 0.371822 Execution time: 1.563470
+############################################################################
+
+##############################################################################
+resnet18_09_ls
+set up dataset variable successfully
+set up dataloader successfully
+training on cuda...
+The parameters number of the model is 2.393691 million
+save key configurations successfully...
+epoch training...
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:51: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+/usr/local/lib/python3.6/dist-packages/dgl/base.py:18: UserWarning: Initializer is not set. Use zero initializer instead. To suppress this warning, use `set_initializer` to explicitly specify which initializer to use.
+  warnings.warn(msg)
+
+[train] Epoch: 1/351 Acc: 0.156426 Loss: 4.218132 Execution time: 5.587665
+[val] Epoch: 1/351 Acc: 0.242033 Loss: 1.726557 Execution time: 1.531619
+[train] Epoch: 11/351 Acc: 0.286558 Loss: 1.249767 Execution time: 5.501142
+[val] Epoch: 11/351 Acc: 0.421189 Loss: 0.599684 Execution time: 1.512062
+[train] Epoch: 21/351 Acc: 0.327609 Loss: 0.971461 Execution time: 5.477361
+[val] Epoch: 21/351 Acc: 0.517657 Loss: 0.483978 Execution time: 1.503312
+[train] Epoch: 31/351 Acc: 0.328683 Loss: 0.848509 Execution time: 5.497762
+[val] Epoch: 31/351 Acc: 0.517657 Loss: 0.465106 Execution time: 1.497632
+[train] Epoch: 41/351 Acc: 0.344781 Loss: 0.822351 Execution time: 5.484414
+[val] Epoch: 41/351 Acc: 0.529716 Loss: 0.469336 Execution time: 1.511727
+[train] Epoch: 51/351 Acc: 0.351757 Loss: 0.812516 Execution time: 5.499628
+[val] Epoch: 51/351 Acc: 0.560724 Loss: 0.457132 Execution time: 1.526616
+[train] Epoch: 61/351 Acc: 0.375101 Loss: 0.794345 Execution time: 5.505145
+[val] Epoch: 61/351 Acc: 0.555556 Loss: 0.451513 Execution time: 1.505860
+[train] Epoch: 71/351 Acc: 0.380467 Loss: 0.777839 Execution time: 5.445204
+[val] Epoch: 71/351 Acc: 0.563307 Loss: 0.443266 Execution time: 1.493992
+[train] Epoch: 81/351 Acc: 0.405152 Loss: 0.759116 Execution time: 5.166170
+[val] Epoch: 81/351 Acc: 0.564169 Loss: 0.433476 Execution time: 1.517248
+[train] Epoch: 91/351 Acc: 0.416421 Loss: 0.756352 Execution time: 5.178767
+[val] Epoch: 91/351 Acc: 0.558140 Loss: 0.430241 Execution time: 1.506351
+[train] Epoch: 101/351 Acc: 0.408908 Loss: 0.751056 Execution time: 5.496544
+[val] Epoch: 101/351 Acc: 0.559001 Loss: 0.428776 Execution time: 1.516280
+[train] Epoch: 111/351 Acc: 0.440837 Loss: 0.740566 Execution time: 5.491242
+[val] Epoch: 111/351 Acc: 0.567614 Loss: 0.424317 Execution time: 1.509278
+[train] Epoch: 121/351 Acc: 0.444325 Loss: 0.738257 Execution time: 5.478829
+[val] Epoch: 121/351 Acc: 0.572782 Loss: 0.422300 Execution time: 1.504546
+[train] Epoch: 131/351 Acc: 0.444862 Loss: 0.728942 Execution time: 5.571443
+[val] Epoch: 131/351 Acc: 0.583979 Loss: 0.412007 Execution time: 1.505591
+[train] Epoch: 141/351 Acc: 0.486182 Loss: 0.716628 Execution time: 5.475541
+[val] Epoch: 141/351 Acc: 0.594315 Loss: 0.407745 Execution time: 1.489142
+[train] Epoch: 151/351 Acc: 0.470620 Loss: 0.722495 Execution time: 5.150313
+[val] Epoch: 151/351 Acc: 0.593454 Loss: 0.405490 Execution time: 1.496171
+[train] Epoch: 161/351 Acc: 0.493963 Loss: 0.714845 Execution time: 5.511823
+[val] Epoch: 161/351 Acc: 0.596899 Loss: 0.408471 Execution time: 1.521047
+[train] Epoch: 171/351 Acc: 0.483230 Loss: 0.708202 Execution time: 5.495463
+[val] Epoch: 171/351 Acc: 0.602929 Loss: 0.407316 Execution time: 1.512162
+[train] Epoch: 181/351 Acc: 0.494231 Loss: 0.704865 Execution time: 5.533938
+[val] Epoch: 181/351 Acc: 0.601206 Loss: 0.405659 Execution time: 1.513614
+[train] Epoch: 191/351 Acc: 0.504964 Loss: 0.698832 Execution time: 5.505324
+[val] Epoch: 191/351 Acc: 0.613264 Loss: 0.398686 Execution time: 1.495808
+[train] Epoch: 201/351 Acc: 0.507647 Loss: 0.700065 Execution time: 5.501303
+[val] Epoch: 201/351 Acc: 0.588286 Loss: 0.403775 Execution time: 1.520534
+[train] Epoch: 211/351 Acc: 0.522672 Loss: 0.699103 Execution time: 5.480974
+[val] Epoch: 211/351 Acc: 0.586563 Loss: 0.404131 Execution time: 1.498590
+[train] Epoch: 221/351 Acc: 0.529380 Loss: 0.689504 Execution time: 5.478854
+[val] Epoch: 221/351 Acc: 0.582257 Loss: 0.404477 Execution time: 1.501834
+[train] Epoch: 231/351 Acc: 0.539308 Loss: 0.688400 Execution time: 5.457323
+[val] Epoch: 231/351 Acc: 0.592593 Loss: 0.401156 Execution time: 1.502802
+[train] Epoch: 241/351 Acc: 0.527502 Loss: 0.692292 Execution time: 5.473851
+[val] Epoch: 241/351 Acc: 0.583979 Loss: 0.401884 Execution time: 1.498307
+[train] Epoch: 251/351 Acc: 0.542796 Loss: 0.685818 Execution time: 5.504332
+[val] Epoch: 251/351 Acc: 0.577950 Loss: 0.398327 Execution time: 1.511808
+[train] Epoch: 261/351 Acc: 0.551918 Loss: 0.688338 Execution time: 5.508261
+[val] Epoch: 261/351 Acc: 0.578811 Loss: 0.406471 Execution time: 1.512966
+[train] Epoch: 271/351 Acc: 0.551650 Loss: 0.675679 Execution time: 5.483851
+[val] Epoch: 271/351 Acc: 0.594315 Loss: 0.394777 Execution time: 1.506322
+[train] Epoch: 281/351 Acc: 0.559163 Loss: 0.681374 Execution time: 5.466148
+[val] Epoch: 281/351 Acc: 0.592593 Loss: 0.399146 Execution time: 1.520399
+[train] Epoch: 291/351 Acc: 0.565602 Loss: 0.673687 Execution time: 5.494796
+[val] Epoch: 291/351 Acc: 0.577950 Loss: 0.399893 Execution time: 1.508196
+[train] Epoch: 301/351 Acc: 0.566944 Loss: 0.669161 Execution time: 5.505293
+[val] Epoch: 301/351 Acc: 0.582257 Loss: 0.395730 Execution time: 1.514373
+[train] Epoch: 311/351 Acc: 0.579286 Loss: 0.666797 Execution time: 5.465517
+[val] Epoch: 311/351 Acc: 0.595177 Loss: 0.394984 Execution time: 1.489057
+[train] Epoch: 321/351 Acc: 0.569359 Loss: 0.668792 Execution time: 5.479174
+[val] Epoch: 321/351 Acc: 0.579673 Loss: 0.396900 Execution time: 1.502407
+[train] Epoch: 331/351 Acc: 0.580628 Loss: 0.674424 Execution time: 5.452379
+[val] Epoch: 331/351 Acc: 0.577089 Loss: 0.396683 Execution time: 1.519227
+[train] Epoch: 341/351 Acc: 0.579018 Loss: 0.664785 Execution time: 5.515769
+[val] Epoch: 341/351 Acc: 0.590009 Loss: 0.392194 Execution time: 1.513196
+[train] Epoch: 351/351 Acc: 0.594848 Loss: 0.657520 Execution time: 5.497670
+[val] Epoch: 351/351 Acc: 0.573643 Loss: 0.394290 Execution time: 1.491670
