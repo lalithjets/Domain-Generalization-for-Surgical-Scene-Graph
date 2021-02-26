@@ -5,6 +5,7 @@ feature_extractor/checkpoint/
 datasets/
 log/
 results/
+figures/
 venv/
 *__pycache__
 *.pyc
