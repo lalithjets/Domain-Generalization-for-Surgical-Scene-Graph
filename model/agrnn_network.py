@@ -1,11 +1,21 @@
 '''
-Predictor 
-    init    : config
-    forward : edge
+Project         : Learning Domain Generaliazation with Graph Neural Network for Surgical Scene Understanding.
+Lab             : MMLAB, National University of Singapore
+contributors    : Lalith, Mobarak 
+Note            : Code adopted and modified from Visual-Semantic Graph Attention Networks.
+                        @article{liang2020visual,
+                          title={Visual-Semantic Graph Attention Networks for Human-Object Interaction Detection},
+                          author={Liang, Zhijun and Rojas, Juan and Liu, Junfa and Guan, Yisheng},
+                          journal={arXiv preprint arXiv:2001.02302},
+                          year={2020}
+                        }
+Contains        : Predictor 
+                    init    : config
+                    forward : edge
 
-AGRNN
-    init    : bias, bn, dropout, multi_attn, layer, diff_edge
-    forward : node_num, feat, spatial_feat, word2vec, roi_label, validation, choose_nodes, remove_nodes
+                  AGRNN
+                    init    : bias, bn, dropout, multi_attn, layer, diff_edge
+                    forward : node_num, feat, spatial_feat, word2vec, roi_label, validation, choose_nodes, remove_nodes
 '''
 
 import dgl
@@ -14,10 +24,11 @@ import numpy as np
 
 import torch
 import torch.nn as nn
+#import torchvision
 
-from model.grnn import GRNN
-from model.modules import MLP
-from model.config import CONFIGURATION
+from model.grnn import *
+from model.config import *
+from model.modules import *
 
 class Predictor(nn.Module):
     '''
@@ -45,7 +56,7 @@ class AGRNN(nn.Module):
         node_num, features, spatial_features, word2vec, roi_label,
         validation, choose_nodes, remove_nodes
     '''
-    def __init__(self, bias=True, bn=True, dropout=None, multi_attn=False, layer=1, diff_edge=True):
+    def __init__(self, bias=True, bn=True, dropout=None, multi_attn=False, layer=1, diff_edge=True, use_cbs = False):
         super(AGRNN, self).__init__()
  
         self.multi_attn = multi_attn # false
@@ -54,7 +65,7 @@ class AGRNN(nn.Module):
         
         self.CONFIG1 = CONFIGURATION(layer=1, bias=bias, bn=bn, dropout=dropout, multi_attn=multi_attn)
 
-        self.grnn1 = GRNN(self.CONFIG1, multi_attn=multi_attn, diff_edge=diff_edge)
+        self.grnn1 = GRNN(self.CONFIG1, multi_attn=multi_attn, diff_edge=diff_edge, use_cbs = use_cbs)
         self.edge_readout = Predictor(self.CONFIG1)
         
     def _collect_edge(self, node_num, roi_label, node_space, diff_edge):
@@ -63,8 +74,8 @@ class AGRNN(nn.Module):
         '''
         
         # get human nodes && object nodes
-        h_node_list = np.where(roi_label == 1)[0]
-        obj_node_list = np.where(roi_label != 1)[0]
+        h_node_list = np.where(roi_label == 0)[0]
+        obj_node_list = np.where(roi_label != 0)[0]
         edge_list = []
         
         h_h_e_list = []
@@ -86,11 +97,12 @@ class AGRNN(nn.Module):
         # readout_edge_list, get corresponding readout edge in the graph
         src_box_list = np.arange(roi_label.shape[0])
         for dst in h_node_list:
-            if dst == roi_label.shape[0]-1:
-                continue
-            src_box_list = src_box_list[1:]
+            # if dst == roi_label.shape[0]-1:
+            #    continue
+            # src_box_list = src_box_list[1:]
             for src in src_box_list:
-                readout_edge_list.append((src, dst))
+                if src not in h_node_list:
+                    readout_edge_list.append((src, dst))
         
         # readout h_h_e_list, get corresponding readout h_h edges && h_o edges
         temp_h_node_list = h_node_list[:]

@@ -1,12 +1,22 @@
 '''
-Primary activation and MLP layer
-acivation:
-    Identity
-    ReLU
-    LeakyReLU
-MLP:
-    init: layer size, activation, bias, use_BN, dropout_probability
-    forward: x
+Project         : Learning Domain Generaliazation with Graph Neural Network for Surgical Scene Understanding.
+Lab             : MMLAB, National University of Singapore
+contributors    : Lalith, Mobarak 
+Note            : Code adopted and modified from Visual-Semantic Graph Attention Networks.
+                        @article{liang2020visual,
+                          title={Visual-Semantic Graph Attention Networks for Human-Object Interaction Detection},
+                          author={Liang, Zhijun and Rojas, Juan and Liu, Junfa and Guan, Yisheng},
+                          journal={arXiv preprint arXiv:2001.02302},
+                          year={2020}
+                        }
+Contains        : Primary activation and MLP layer
+                    acivation:
+                        Identity
+                        ReLU
+                        LeakyReLU
+                    MLP:
+                        init: layer size, activation, bias, use_BN, dropout_probability
+                        forward: x
 '''
 
 import torch.nn as nn

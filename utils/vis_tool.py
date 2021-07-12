@@ -1,4 +1,17 @@
-import time
+'''
+Project         : Learning Domain Generaliazation with Graph Neural Network for Surgical Scene Understanding.
+Lab             : MMLAB, National University of Singapore
+contributors    : Lalith, Mobarak 
+Note            : Code adopted and modified from Visual-Semantic Graph Attention Networks.
+                        @article{liang2020visual,
+                          title={Visual-Semantic Graph Attention Networks for Human-Object Interaction Detection},
+                          author={Liang, Zhijun and Rojas, Juan and Liu, Junfa and Guan, Yisheng},
+                          journal={arXiv preprint arXiv:2001.02302},
+                          year={2020}
+                        }
+'''
+
+#import time
 
 import random
 import numpy as np
@@ -10,7 +23,7 @@ from matplotlib import pyplot as plot
 from PIL import Image, ImageDraw, ImageFont
 
 
-def vis_img(img, node_classes, bboxs,  det_action, score_thresh = 0.7):
+def vis_img(img, node_classes, bboxs,  det_action, data_const, score_thresh = 0.7):
     
     Drawer = ImageDraw.Draw(img)
     line_width = 3

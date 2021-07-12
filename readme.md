@@ -46,17 +46,7 @@ In this project, we implement our method using the Pytorch and DGL library and t
 In the following, we briefly introduce some main scripts.
 
 #### datasets/
-- `hico_process.sh`: the file that includes all comments to prepare for train/test data;
-- `hico_constants.py` and `metadata.py`: configuration files;
-- `hico_mat_to_json.py`: script to convert the original dataset `*.mat` files to `*.json` files;
-- `hico_hoi_cls_count.py`: script to count the training samples of each HOI category;
-- `hico_split_ids.py`: script to split the dataset into train/valuation/test dataset;
-- `hico_run_faster_rcnn.py`: script to run Faster R-CNN to save the object detection data;
-- `hico_select_confident_boxes.py`: script to select the confident detection boxes exceed the thresholds;
-- `evaluate_instance_detection.py`: script to evalute the detection results(You can skim this script);
-- `hico_train_val_test_data.py`: script to prepare the train/val/test data by matching the object detection result with ground-truth data;
-- `hico_word2vec.py`: script to prepare the word embedding features;
-- `hico_spatial_feature.py`: script to prepare the spatial features;
+
 
 #### model/
 - `config.py`: configuration file;
@@ -65,16 +55,12 @@ In the following, we briefly introduce some main scripts.
 - `utils.py`: script to consturct the MLPs;
 
 #### result/
-- `hico_eval.sh`: the file that includes all comments to get the evaluation result;
-- `compute_map.py`: script to calculate the map for each HOI category based on the HOI detection results;
-- `sample_analysis.py`: script to calculate the mAP for *Full*, *Rare*, *Non-Rare*;
+
 
 #### others 
 - `hico_train.py`: script to train the model on *train_set* for hyperparameter selection;
 - `hico_trainval.py`: script to train the model on *trainval_set* for final learned model;
-- `hico_eval.py`: script to evalute the trained model on *test_set*;
-- `inference.py`: script to output the HOI detection results in specified images;
-- `utils/vis_tool.py`: script to visualize the detection results;
+
 
 <!---------------------------------------------------------------------------------------------------------------->
 ## Getting Started

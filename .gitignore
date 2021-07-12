@@ -1,5 +1,6 @@
 *.ipynb_checkpoints/
 .vscode/
+old_deprecated/
 checkpoints/
 feature_extractor/checkpoint/
 datasets/
@@ -7,6 +8,7 @@ log/
 results/
 figures/
 venv/
+basic_run.txt
 *__pycache__
 *.pyc
 *.mp4

@@ -1,3 +1,9 @@
+'''
+Project         : Learning Domain Generaliazation with Graph Neural Network for Surgical Scene Understanding.
+Lab             : MMLAB, National University of Singapore
+contributors    : Lalith, Mobarak 
+'''
+
 import os
 import utils.io as io
 
