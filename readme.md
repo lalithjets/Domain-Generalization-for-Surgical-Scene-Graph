@@ -1,11 +1,7 @@
-# Learning Domain Generaliazation with Graph Neural Network for Surgical Scene Understanding.
+# Learning Domain Generalization with Graph Neural Network for Surgical Scene Understanding in Robotic Surgeries}
 
 <!---------------------------------------------------------------------------------------------------------------->
-Code adopted and modified from :
-a) Visual-Semantic Graph Attention Network for Human-Object Interaction Detecion
-- Official Pytorch implementation for [Visual-Semantic Graph Attention Network for Human-Object Interaction Detecion](https://arxiv.org/abs/2001.02302).
-b) End-to-End Incremental Learning
-- Official Pytorch implementation for :
+Surgical scene understanding (SSU) is a key barrier for situation-aware robotic surgeries and the associated surgical training. Though graph neural network is showing excellent performance in SSU, its robustness to domain shift during domain generalization (DG) is under-explored. With this domain shift and the inclusion of new instruments and tissues in the new domains, learning DG to infer graph representation of the surgical scene and perform deep reasoning plays a pivotal role in expanding the SSU application to new domains in robotic surgery. To address this, we employ a DG approach on surgical scene graphs to predict instrument-tissue interaction during robot-assisted surgery. We incorporate incremental learning (IL) to the feature extraction network and knowledge distillation-based student-teacher learning to the graph network, to accommodate new instruments and domain shifts in the new domain. The graph network’s performance in inferring instrument-tissue interaction relies heavily on feature extraction and graph node embedding. We design an enhanced curriculum by smoothing (E-CBS) based on Laplacian of Gaussian kernel and Gaussian kernel, and integrate with feature extraction network and visual-semantic graph attention network to improve the model performance. Furthermore, we normalize the feature extraction and graph network’s logits by T-Norm and study its effect in calibrating the model. The proposed SSU is trained on nephrectomy procedures video frames and then domain generalized to transoral robotics surgery video frames. Our model mostly outperformed state-of-the-art graph models in unsupervised domain adaptation. Upon DG, our model also proves that it retains most of it's performance in SD and improves its performance in TD.
 
 <!---------------------------------------------------------------------------------------------------------------->
 ## VS-GATs
@@ -19,23 +15,12 @@ To be added
 ## Code Overview
 In this project, we implement our method using the Pytorch and DGL library and there are three main folders: 
 
-- `datasets/`: 
-- `model/`: 
-- `result/`: 
+- `Feature_extractor/`: Used to extract features from dataset images to train the graph network.
+- `datasets/`: Contains the dataset needed to train the network.
+- `model/`: Contains network models.
+- `utils/`: Contains utility tools used for training and evaluation.
+- `checkpoints/`: Conatins trained weights
 
-In the following, we briefly introduce some main scripts.
-
-#### datasets/
-To be added
-
-#### model/
-- `config.py`: To be added
-- `model.py`: To be added
-- `grnn.py`: To be added
-- `utils.py`: To be added
-
-#### result/
-- To be added
 <!---------------------------------------------------------------------------------------------------------------->
 ## Library Prerequisities.
 
@@ -49,37 +34,28 @@ To be added
 - CUDA 10.0
 - Ubuntu 16.04
 
-### Installation
-1. Clone this repository.   
 
-    ```
-    git clone https://github.com/BIGJUN777/VS-GATs.git
-    ```
-  
-2. Install Python dependencies:   
-
-    ```
-    pip install -r requirements.txt
-    ```
-
-### Prepare Data
-#### Download original data
-1. gdrive_link for features: 
-3. Download the pretrain word2vec model on [GoogleNews](https://code.google.com/archive/p/word2vec/) and put it into `datasets/word2vec` 
-
-#### Process Data
-- feature_extractor/feature_extraction.ipynb.
+### Dataset
+#### Download feature extracted data for training and evalutation
+1. gdrive_link for features [To be added]()
+2. Download the pretrain word2vec model on [GoogleNews](https://code.google.com/archive/p/word2vec/) and put it into `datasets/word2vec` 
 
 ### Training
-- train.py
-
+- model_train.py
 - Checkpoints will be saved in `checkpoints/` folder.
-### Testing
-- Validation.py
 
-### Results
-- Please check the paper for the quantitative results and several qualitative detection results are as follow:
-    ![detection_results](./assets/detection.png)
+### Testing
+- model_evaluation.py
+
 
 ### Acknowledgement
-In this project, some codes which process the data and eval the model are built upon [ECCV2018-Learning Human-Object Interactions by Graph Parsing Neural Networks](https://github.com/SiyuanQi/gpnn) and [ICCV2019-No-Frills Human-Object Interaction Detection: Factorization, Layout Encodings, and Training Techniques](https://github.com/BigRedT/no_frills_hoi_det). Thanks them for their great works.
+Code adopted and modified from :
+1. Visual-Semantic Graph Attention Network for Human-Object Interaction Detecion
+    - Paper [Visual-Semantic Graph Attention Network for Human-Object Interaction Detecion](https://arxiv.org/abs/2001.02302).
+    - Official Pytorch implementation [code](https://github.com/birlrobotics/vs-gats).
+2. End-to-End Incremental Learning
+    - Paper [End-to-End Incremental Learning](ttps://arxiv.org/pdf/1807.09536.pdf).
+    - Pytorch implementation [code](https://github.com/fmcp/EndToEndIncrementalLearning).
+3. Curriculum by smoothing
+    - Paper [Curriculum by smoothing](https://arxiv.org/pdf/2003.01367.pdf).
+    - Pytorch implementation [code](https://github.com/pairlab/CBS).

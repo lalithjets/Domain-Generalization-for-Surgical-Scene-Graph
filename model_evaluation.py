@@ -178,7 +178,7 @@ if __name__ == "__main__":
     parser.add_argument('--diff_edge',         type=bool,    default = False,                     help='pass empty string for false') 
     # CBS
     parser.add_argument('--use_cbs',           type=bool,     default = True,                     help='pass empty string for false')
-    # temperature_scaling
+    # t-norm
     parser.add_argument('--use_t',             type=bool,     default = True,                     help='pass empty string for false')
     parser.add_argument('--t_scale',           type=float,     default = 1.5,                     help='1.5')
     # optimizer

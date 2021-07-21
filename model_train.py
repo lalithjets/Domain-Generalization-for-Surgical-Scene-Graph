@@ -387,7 +387,7 @@ def run_model(args, data_const):
 if __name__ == "__main__":
 
     # Version and feature extraction
-    ver = 'testing'
+    ver = 'N_d2g_ecbs_t_resnet18_11_cbs_ts'
     f_e = 'resnet18_11_cbs_ts'
 
     parser = argparse.ArgumentParser(description='domain_generalization in scene understanding')
@@ -407,7 +407,7 @@ if __name__ == "__main__":
     parser.add_argument('--diff_edge',         type=bool,    default = False,                     help='pass empty string for false') 
     # CBS
     parser.add_argument('--use_cbs',           type=bool,     default = True,                     help='pass empty string for false')
-    # temperature_scaling
+    # t-norm
     parser.add_argument('--use_t',             type=bool,     default = True,                     help='pass empty string for false')
     parser.add_argument('--t_scale',           type=float,     default = 1.5,                     help='1.5')
     # optimizer
