@@ -1,4 +1,4 @@
-# Learning Domain Generalization with Graph Neural Network for Surgical Scene Understanding in Robotic Surgeries}
+# Incremental Domain Generalization with Graph Network for Surgical Scene Understanding
 
 <!---------------------------------------------------------------------------------------------------------------->
 - A domain generalized approach on surgical scene graphs to predict instrument-tissue interaction during robot-assisted surgery. We incorporate incremental learning to the feature extraction network and knowledge distillation-based student-teacher learning to the graph network, to accommodate new instruments and domain shifts in the new domain. 
